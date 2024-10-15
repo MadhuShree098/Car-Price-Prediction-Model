@@ -1,8 +1,8 @@
 # Car-Price-Prediction-Model
 
-﻿This mission aims to expect the promoting fees of automobiles the use of various regression techniques. The version is designed as a mini-assignment for exercise and showcases the software of machine gaining knowledge of in predicting actual-global values based totally on historic data.
+﻿This project aims to predict the selling prices of cars using various regression techniques. The model is designed as a mini-project for practice and showcases the application of machine learning in predicting real-world values based on historical data.
 Dataset
-The dataset used for this undertaking includes records about 301 motors, along with features which includes:
+The dataset used for this project contains information about 301 cars, including features such as:
 Car Name
 Year of Manufacture
 Selling Price
@@ -13,21 +13,21 @@ Seller Type (Dealer, Individual)
 Transmission (Manual, Automatic)
 Owner Count
 Data Processing
-The records undergoes numerous preprocessing steps:
-Loading the Data: The dataset is imported from a CSV document.
-Handling Missing Values: A test confirms that there are no missing values inside the dataset.
-Encoding Categorical Variables: Categorical capabilities including Fuel Type, Seller Type, and Transmission are converted into numerical values for model compatibility.
-Feature Selection: The capabilities are selected by using eliminating non-predictive columns like Car Name and the target variable Selling Price.
+The data undergoes several preprocessing steps:
+Loading the Data: The dataset is imported from a CSV file.
+Handling Missing Values: A check confirms that there are no missing values in the dataset.
+Encoding Categorical Variables: Categorical features such as Fuel Type, Seller Type, and Transmission are converted into numerical values for model compatibility.
+Feature Selection: The features are selected by removing non-predictive columns like Car Name and the target variable Selling Price.
 Model Training
-The dataset is break up into schooling and checking out units, with ninety% of the information used for education. Various regression fashions are implemented to assess their overall performance in predicting car prices:
+The dataset is split into training and testing sets, with 90% of the data used for training. Various regression models are implemented to evaluate their performance in predicting car prices:
 Linear Regression
 Lasso Regression
 Random Forest Regressor
 Gradient Boosting Regressor
 Decision Tree Regressor
 Model Evaluation
-Each version's performance is classed the usage of the R² rating, which indicates how nicely the version explains the range of the goal variable:
-Higher R² scores symbolize higher predictive accuracy.
-Visualizations of real vs expected charges are generated to offer insights into version performance.
+Each model's performance is assessed using the R² score, which indicates how well the model explains the variability of the target variable:
+Higher R² scores signify better predictive accuracy.
+Visualizations of actual vs predicted prices are generated to provide insights into model performance.
 Conclusion
-The Random Forest and Gradient Boosting fashions showcase advanced overall performance in predicting car costs in comparison to other fashions. The Decision Tree model shows excellent education overall performance but suggests ability overfitting due to a huge drop in testing accuracy.
+The Random Forest and Gradient Boosting models exhibit superior performance in predicting car prices compared to other models. The Decision Tree model shows excellent training performance but indicates potential overfitting due to a significant drop in testing accuracy.
